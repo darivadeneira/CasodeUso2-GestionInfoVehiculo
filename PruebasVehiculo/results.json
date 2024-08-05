@@ -1,0 +1,132 @@
+[
+  {
+    "uri": "Feature/verVehiculo.feature",
+    "id": "visualizar-veh\u00edculo",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Visualizar veh\u00edculo",
+    "description": "",
+    "elements": [
+      {
+        "id": "visualizar-un-vehiculo",
+        "line": 3,
+        "type": "scenario",
+        "keyword": "Scenario",
+        "name": "Visualizar un vehiculo",
+        "description": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given",
+            "line": 4,
+            "name": "Se inicia el navegador",
+            "result": {
+              "status": "passed",
+              "duration": 2.0242326259613037
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "line": 5,
+            "name": "Entra a la seccion vehiculo",
+            "result": {
+              "status": "passed",
+              "duration": 0.7984097003936768
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 6,
+            "name": "Busca Vehiculo a Visualizar PMA-1056",
+            "result": {
+              "status": "passed",
+              "duration": 0.1955242156982422
+            }
+          }
+        ]
+      },
+      {
+        "id": "visualizar-un-vehiculo-en-viaje",
+        "line": 8,
+        "type": "scenario",
+        "keyword": "Scenario",
+        "name": "Visualizar un vehiculo en viaje",
+        "description": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given",
+            "line": 9,
+            "name": "Se inicia el navegador",
+            "result": {
+              "status": "passed",
+              "duration": 1.4093539714813232
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "line": 10,
+            "name": "Entra a la seccion vehiculo",
+            "result": {
+              "status": "passed",
+              "duration": 1.3929822444915771
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 11,
+            "name": "Busca Vehiculo a Visualizar ABC-123",
+            "result": {
+              "status": "passed",
+              "duration": 0.17882585525512695
+            }
+          }
+        ]
+      },
+      {
+        "id": "visualizar-un-vehiculo-inexistente",
+        "line": 13,
+        "type": "scenario",
+        "keyword": "Scenario",
+        "name": "Visualizar un vehiculo inexistente",
+        "description": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given",
+            "line": 14,
+            "name": "Se inicia el navegador",
+            "result": {
+              "status": "passed",
+              "duration": 1.4054419994354248
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "line": 15,
+            "name": "Entra a la seccion vehiculo",
+            "result": {
+              "status": "passed",
+              "duration": 1.405632495880127
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 16,
+            "name": "Busca Vehiculo a Visualizar XDA-123",
+            "result": {
+              "status": "passed",
+              "duration": 0.176544189453125
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
